@@ -715,6 +715,11 @@ a.ui.card:hover,
   margin-right: 0.5em;
   font-size: 11px;
 }
+#navbar-brand {
+  color:red;
+  font-size:50px;
+  font-family: time-new-roman;
+}
 .ui.nine.cards {
   margin-left: -0.5em;
   margin-right: -0.5em;
