@@ -14,6 +14,12 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+<<<<<<< HEAD
+=======
+gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
+
+>>>>>>> 6c54146181e8beafd7aea60265f0d103b7af4d04
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -31,8 +37,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+<<<<<<< HEAD
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
+=======
+
+>>>>>>> 6c54146181e8beafd7aea60265f0d103b7af4d04
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

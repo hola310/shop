@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
+<<<<<<< HEAD
   root "products#index"
+=======
+>>>>>>> 6c54146181e8beafd7aea60265f0d103b7af4d04
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -56,4 +59,8 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+<<<<<<< HEAD
+=======
+  root 'products#index'
+>>>>>>> 6c54146181e8beafd7aea60265f0d103b7af4d04
 end
